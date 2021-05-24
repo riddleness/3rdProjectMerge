@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#B3DA74">
+    <item android:drawable="@drawable/wind2"/>
+</ripple>
+

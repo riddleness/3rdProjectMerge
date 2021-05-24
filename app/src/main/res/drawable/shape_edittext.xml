@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="rectangle">
+
+    <stroke android:width="4dp"
+        android:color="#A7DDB8"/>
+    <!-- 내부 색상 설정 -->
+    <solid android:color="#A7DDB8"/>
+    <!-- 좌측상단 / 우측상단 / 좌측하단 / 우측하단 -->
+    <corners
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp"
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"/>
+
+</shape>

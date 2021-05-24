@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute,ResourceCycle">
+
+    <font
+        android:font="@font/donggurami_b"
+        android:fontStyle="normal"
+        android:fontWeight="300"
+        app:font="@font/donggurami_b"
+        app:fontStyle="normal"
+        app:fontWeight="300" />
+
+    <font
+        android:font="@font/donggurami_l"
+        android:fontStyle="normal"
+        android:fontWeight="500"
+        app:font="@font/donggurami_l"
+        app:fontStyle="normal"
+        app:fontWeight="500" />
+
+    <font
+        android:font="@font/donggurami_m"
+        android:fontStyle="normal"
+        android:fontWeight="1000"
+        app:font="@font/donggurami_m"
+        app:fontStyle="normal"
+        app:fontWeight="1000" />
+
+    <font
+        android:font="@font/scdream5"
+        android:fontStyle="normal"
+        android:fontWeight="1000"
+        app:font="@font/donggurami_m"
+        app:fontStyle="normal"
+        app:fontWeight="1000" />
+
+    <font
+        android:font="@font/nanumpen"
+        android:fontStyle="normal"
+        android:fontWeight="1000"
+        app:font="@font/donggurami_m"
+        app:fontStyle="normal"
+        app:fontWeight="1000" />
+
+</font-family>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">팟스타그램</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="loading">로딩중입니다.</string>
+    <string name="confirm">확인</string>
+    <string name="network_error">네트워크 연결이 원활하지 않습니다.</string>
+    <string name="positive">네</string>
+    <string name="negative">아니오</string>
+    <string name="phone_notice">Instagram의 업데이트 내용을 SMS로 수신할 수 있으며,
+    언제든지 수신을 취소할 수 있습니다.</string>
+    <string name="passwd_notice">비밀번호를 저장할 수 있으므로 iCloud 기기에서 로그인 정보를 입력하지 않아도
+    됩니다.</string>
+    <string name="addname_notice">친구들이 회원님을 찾을 수 있도록 이름을 추가하세요.</string>
+    <string name="changename_notice">계정에서 사용할 사용자 이름을 선택하세요. 사용자 이름은 언제든지 변경 가능합니다.</string>
+    <string name="profile_edit">프로필 편집</string>
+    <string name="change_name_notice1">사람들이 이름, 별명 또는 비즈니스 이름 등 회원님의 알려진 이름을 사용하여
+    회원님의 계정을 찾을 수 있도록 도와주세요.</string>
+    <string name="change_name_notice2">이름은 14일 안에 두 번만 변경할 수 있습니다.</string>
+    <string name="change_id_notice">14일간 사용자 이름을 다시 변경할 수 있습니다.</string>
+</resources>

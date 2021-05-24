@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/ly_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:id="@+id/search_bar"
+            android:hint="검색"
+            android:completionThreshold="1"
+            android:paddingLeft="14dp"
+            android:textSize="18dp"
+            android:inputType="text"
+            android:background="@drawable/searchbar_shape"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"></AutoCompleteTextView>
+        <ImageView
+            android:id="@+id/btn_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:padding="6dp"
+            android:src="@drawable/icon_plus_account"></ImageView>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_search"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/BottomNavigation"
+        android:layout_below="@+id/ly_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"></LinearLayout>-->
+<!--    <View-->
+<!--        android:layout_above="@+id/BottomNavigation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="@color/colorLightGray">-->
+<!--    </View>-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/BottomNavigation"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_height="33dp">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/icon_home"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="customOnClick"-->
+<!--            android:src="@drawable/icon_empty_home"></ImageView>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/icon_search"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:padding="3dp"-->
+<!--            android:onClick="customOnClick"-->
+<!--            android:src="@drawable/icon_click_search"></ImageView>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/icon_upload"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="customOnClick"-->
+<!--            android:src="@drawable/icon_update"></ImageView>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/icon_favorite"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="customOnClick"-->
+<!--            android:src="@drawable/icon_favorite"></ImageView>-->
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/icon_account"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="3dp"-->
+<!--            android:onClick="customOnClick"-->
+<!--            android:src="@drawable/icon_default_profileimg"></de.hdodenhof.circleimageview.CircleImageView>-->
+
+
+<!--    </LinearLayout>-->
+</RelativeLayout>

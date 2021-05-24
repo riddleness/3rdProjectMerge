@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/search_result"
+    android:padding="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/search_profile_img"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2"
+        android:src="@drawable/icon_default_profileimg"></de.hdodenhof.circleimageview.CircleImageView>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="8">
+        <TextView
+            android:id="@+id/tv_search_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="id view"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:background="@color/transparent"></TextView>
+        <TextView
+            android:id="@+id/tv_search_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="name view"
+            android:textColor="@color/colorBlack"
+            android:background="@color/transparent"></TextView>
+    </LinearLayout>
+</LinearLayout>

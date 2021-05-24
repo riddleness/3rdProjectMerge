@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_favorite_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="활동"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="14dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/icon_action"
+        android:layout_width="132dp"
+        android:layout_height="112dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/icon_no_action"
+        app:srcCompat="@drawable/heart__1"></ImageView>
+
+    <TextView
+        android:id="@+id/tv_action"
+        android:layout_marginTop="8dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/icon_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="게시물 활동"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_action"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="다른 사람이 회원님의 게시물을 좋아하거나 댓글을 남기면 여기에 표시됩니다."></TextView>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"></LinearLayout>-->
+<!--    <View-->
+<!--        android:layout_above="@+id/BottomNavigation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="@color/colorLightGray">-->
+<!--    </View>-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/BottomNavigation"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_height="33dp">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/icon_home"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="customOnClick"-->
+<!--            android:src="@drawable/icon_empty_home"></ImageView>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/icon_search"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="customOnClick"-->
+<!--            android:src="@drawable/icon_search"></ImageView>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/icon_upload"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="customOnClick"-->
+<!--            android:src="@drawable/icon_update"></ImageView>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/icon_favorite"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="customOnClick"-->
+<!--            android:src="@drawable/icon_click_favorite"></ImageView>-->
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/icon_account"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="3dp"-->
+<!--            android:onClick="customOnClick"-->
+<!--            android:src="@drawable/icon_default_profileimg"></de.hdodenhof.circleimageview.CircleImageView>-->
+
+
+<!--    </LinearLayout>-->
+
+</RelativeLayout>
